@@ -1,6 +1,6 @@
 var printNumbers = function (start,end) {
-  for (var i = 0; i <= end; i++){
+  for (var i = start; i <= end; i++){
     console.log(i);
   }
 };
-printNumbers(0,10);
+printNumbers(1,10);

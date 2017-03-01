@@ -1,6 +1,6 @@
 var printSquare= function(num) {
   for (var i = 0; i <= num; i++){
-    console.log("*****");
+    console.log("*".repeat(num));
   }
 };
-printSquare(7);
+printSquare(5);
